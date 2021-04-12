@@ -1,4 +1,9 @@
 const fs = require('fs');
+// const chalk = require('chalk');
+// console.log(chalk.blue.bold('Hello world!'));
+// const validator = require('validator')
+
+// console.log(validator.isEmail('natalie.itzha@gmail.com'))
 
 fs.writeFileSync('note.txt', 'one')
 fs.copyFileSync('./note.txt', './note_copy.txt');

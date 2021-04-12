@@ -4,8 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon app.js, nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatalieItzhak/Node_JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NatalieItzhak/Node_JS/issues"
+  },
+  "homepage": "https://github.com/NatalieItzhak/Node_JS#readme"
 }
